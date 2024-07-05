@@ -43,3 +43,27 @@ p {
 .btn:hover {
     background: #8e44ad;
 }
+
+.image-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
